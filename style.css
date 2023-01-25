@@ -1,0 +1,202 @@
+.button-blue, .button-green, .button-black, .button-red, .button-orange {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 7px #999;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-weight:bold;
+}
+.user{
+cursor:pointer;
+}
+
+.button-blue {
+    background-color: #008CBA; /* Blue */
+}
+
+
+
+.button-green {
+    background-color: #4CAF50; /* Green */
+}
+
+
+.button-black {
+    background-color: #555555;  /* Black */
+}
+
+.button-red {
+    background-color: #f44336;  /* Red */
+}
+
+.button-orange {
+    background-color: #FF9933;  /* orange */
+}
+
+.button-blue:hover, .button-green:hover, .button-black:hover, .button-red:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.block_serial
+{
+    margin-bottom: 24px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.05), 0 1px 3px 0 rgba(0,0,0,0.25);
+    padding: 20px 25px;
+    background-color: #cef;
+    color: #3a648e;
+    cursor: pointer;
+}
+
+
+.block_serial-icon {
+    font-size: 30px;
+    width: 80px;
+    opacity: 0.5;
+}
+
+
+
+
+.linkbutton{float:left;position:relative;margin:10px 10px 15px 25px;}
+.linkbutton img{position:absolute;z-index:1;height:60px;left:-25px;top:-10px;}
+.linkbutton a.link i{font-size:30px;position:absolute;top:4px;right:6px;}
+.linkbutton.orta{margin:10px 10px 15px 10px;}
+.linkbutton.son{margin:10px 0 15px 10px;}
+.linkbutton.orta a{width:175px!important;padding:10px 10px 10px 15px!important;}
+.linkbutton.son a{padding:10px 10px 10px 15px!important;}
+.linkbutton.son a i{right:28px!important;}
+.linkbutton.son img{left:155px!important;top:-10px;}
+.linkbutton a.link{width: 180px;height:40px;position:relative;display:inline-block;text-decoration:none;font-size:19px;overflow:hidden;padding:10px 10px 10px 25px;text-align:left;box-sizing:border-box;color:#fff!important;line-height:22px;background:#1A76A5;border-bottom:3px solid #003E5E;}
+.linkbutton a.link:hover{opacity:.9;}
+
+
+
+
+[data-icon]:before{font-family:ecce-pure!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+
+.icon-link:before{content:"y";}
+.icon-target:before{content:"Y";}
+
+
+
+Download Now
+ 
+green-button1
+ 
+Font Size: 
+20px
+  bold   italic
+Size
+Vertical Size: 
+15px
+Horizontal Size: 
+35px
+Border
+Border Radius: 
+14px
+Border Size: 
+1px
+  Box Shadow   /   inset
+Vertical Position: 
+1px
+Horizontal Position: 
+0px
+Blur Radius: 
+0px
+Spread Radius: 
+0px
+  Text Shadow
+Vertical Position: 
+1px
+Horizontal Position: 
+0px
+Blur Radius: 
+0px
+ <a href="#" class="green-button1">Download Now</a>
+
+
+
+.btnblue {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnblue:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.btngreen {
+  background: #32ba37;
+  background-image: -webkit-linear-gradient(top, #32ba37, #17b537);
+  background-image: -moz-linear-gradient(top, #32ba37, #17b537);
+  background-image: -ms-linear-gradient(top, #32ba37, #17b537);
+  background-image: -o-linear-gradient(top, #32ba37, #17b537);
+  background-image: linear-gradient(to bottom, #32ba37, #17b537);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 11px 22px 11px 22px;
+  text-decoration: none;
+}
+
+.btngreen:hover {
+  background: #1b801e;
+  text-decoration: none;
+}
+
+
+
+.button-slideup {
+  width: 160px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #2EE59D;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button-slideup:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
